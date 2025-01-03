@@ -24,6 +24,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // routes
 app.use("/api/v1/images", imageRoutes);
 
+
+
+
 app.listen(PORT, () => {
   console.log(`Server running on port http://localhost:${PORT}`);
 });
